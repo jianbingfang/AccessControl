@@ -25,7 +25,7 @@ deny = [
 
 Every `rule` in `rules` is consist of a `allow` or a `deny` or both.
 
-The `rule` is an list of triples, a triple with structure `[subject, resource, action]` which describes: **who**(`subject`, could be a user name, group name, or role name) **can**(for `allow`) **or cannot**(for `deny`) **do** `action` on **something**(`resource`).
+The `rule` is a list of triples. Each triple with structure `[subject, resource, action]` describes: **who**(`subject`, could be a user name, group name, or role name) **can**(for `allow`) **or cannot**(for `deny`) **do** `action` on **something**(`resource`).
 
 ## ACL Config
 ```toml
